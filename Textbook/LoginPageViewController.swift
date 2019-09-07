@@ -8,14 +8,20 @@
 
 import UIKit
 import Firebase
-class LoginPageViewController: UIViewController {
+class LoginPageViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var passwordField: UITextField!
     @IBOutlet weak var emailField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.emailField.delegate = self
+        self.passwordField.delegate = self
         // Do any additional setup after loading the view.
+    }
+    //Hide when outside keyboard.
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
     }
     
     @IBAction func login(_ sender: Any) {
