@@ -16,6 +16,9 @@
 		08CD8344232402DE00D04997 /* TextbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CD8343232402DE00D04997 /* TextbookUITests.swift */; };
 		08CD8352232445CA00D04997 /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CD8351232445CA00D04997 /* LoginPageViewController.swift */; };
 		08CD835623244EC400D04997 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08CD835523244EC400D04997 /* GoogleService-Info.plist */; };
+		08CD8358232455EF00D04997 /* AddUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CD8357232455EF00D04997 /* AddUserViewController.swift */; };
+		08CD835A2324566800D04997 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CD83592324566800D04997 /* User.swift */; };
+		08CD835C2324573800D04997 /* FirebaseDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CD835B2324573800D04997 /* FirebaseDataManager.swift */; };
 		4712177CC17007A914BBD3B7 /* Pods_TextbookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908B4E8464D541653C94542C /* Pods_TextbookUITests.framework */; };
 		493649918D33408D9AEAB01E /* Pods_TextbookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A26D6D0C676E360BDAC2585 /* Pods_TextbookTests.framework */; };
 		5CD806C2F393DCA879B4249A /* Pods_Textbook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B0A87ACF10DFA36D7E8B758 /* Pods_Textbook.framework */; };
@@ -54,6 +57,9 @@
 		08CD8345232402DE00D04997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08CD8351232445CA00D04997 /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
 		08CD835523244EC400D04997 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		08CD8357232455EF00D04997 /* AddUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewController.swift; sourceTree = "<group>"; };
+		08CD83592324566800D04997 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		08CD835B2324573800D04997 /* FirebaseDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDataManager.swift; sourceTree = "<group>"; };
 		3604D4124BCDAE6B34AD8AB4 /* Pods-TextbookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextbookUITests.debug.xcconfig"; path = "Target Support Files/Pods-TextbookUITests/Pods-TextbookUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3C0A0BA9B66C86B8CBE402E8 /* Pods-TextbookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextbookUITests.release.xcconfig"; path = "Target Support Files/Pods-TextbookUITests/Pods-TextbookUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4761FAD91CB9E9ABE3BD5609 /* Pods-Textbook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Textbook.release.xcconfig"; path = "Target Support Files/Pods-Textbook/Pods-Textbook.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,7 +126,10 @@
 			children = (
 				08CD8323232402D900D04997 /* AppDelegate.swift */,
 				08CD8325232402D900D04997 /* ViewController.swift */,
+				08CD83592324566800D04997 /* User.swift */,
 				08CD8351232445CA00D04997 /* LoginPageViewController.swift */,
+				08CD8357232455EF00D04997 /* AddUserViewController.swift */,
+				08CD835B2324573800D04997 /* FirebaseDataManager.swift */,
 				08CD8327232402D900D04997 /* Main.storyboard */,
 				08CD832A232402DE00D04997 /* Assets.xcassets */,
 				08CD832C232402DE00D04997 /* LaunchScreen.storyboard */,
@@ -405,7 +414,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				08CD8352232445CA00D04997 /* LoginPageViewController.swift in Sources */,
+				08CD8358232455EF00D04997 /* AddUserViewController.swift in Sources */,
+				08CD835C2324573800D04997 /* FirebaseDataManager.swift in Sources */,
 				08CD8326232402D900D04997 /* ViewController.swift in Sources */,
+				08CD835A2324566800D04997 /* User.swift in Sources */,
 				08CD8324232402D900D04997 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

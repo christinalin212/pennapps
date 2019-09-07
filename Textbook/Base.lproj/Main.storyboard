@@ -68,10 +68,10 @@
             </objects>
             <point key="canvasLocation" x="641" y="-267"/>
         </scene>
-        <!--View Controller-->
+        <!--Add User View Controller-->
         <scene sceneID="puG-ip-Iif">
             <objects>
-                <viewController id="dae-c2-YMu" sceneMemberID="viewController">
+                <viewController id="dae-c2-YMu" customClass="AddUserViewController" customModule="Textbook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xv7-OT-WqD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -122,6 +122,9 @@
                                 <rect key="frame" x="129" y="526" width="113" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="let's get started!"/>
+                                <connections>
+                                    <action selector="addUserPressed:" destination="dae-c2-YMu" eventType="touchUpInside" id="hrE-sP-WQQ"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5hA-i1-YdR">
                                 <rect key="frame" x="29" y="205" width="321" height="30"/>
@@ -155,6 +158,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="35L-c0-dZ4"/>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="whk-Oo-Y2z" id="bfg-lX-v6L"/>
+                        <outlet property="first" destination="4K7-36-Tl1" id="ltn-bE-RLs"/>
+                        <outlet property="last" destination="5hA-i1-YdR" id="qi9-cz-bMJ"/>
+                        <outlet property="passwordField" destination="0XU-q1-n7c" id="ipR-TK-vOa"/>
+                        <outlet property="venmoField" destination="VCP-da-Nmo" id="3Na-IR-Yix"/>
+                        <segue destination="OPX-0b-MXC" kind="show" identifier="addUser" id="P9M-AG-RkG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CTa-Ea-JrE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -211,4 +222,7 @@
             <point key="canvasLocation" x="641" y="577"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="P9M-AG-RkG"/>
+    </inferredMetricsTieBreakers>
 </document>
