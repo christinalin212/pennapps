@@ -73,7 +73,7 @@
                     <connections>
                         <outlet property="emailField" destination="Ldr-Q8-dvq" id="nje-rR-ItO"/>
                         <outlet property="passwordField" destination="caR-HY-aB4" id="TIv-lH-4Nk"/>
-                        <segue destination="OPX-0b-MXC" kind="show" id="Ujo-kR-MxI"/>
+                        <segue destination="OPX-0b-MXC" kind="show" identifier="loginToHome" id="Ujo-kR-MxI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -295,6 +295,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="fcy-gb-mdc" kind="show" id="Tu5-ME-khl"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
