@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import Firebase
+import UIKit
+
+class SellPageViewController: UIViewController {
+    
+}

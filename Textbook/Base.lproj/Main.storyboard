@@ -191,7 +191,7 @@
         <!--Sell Textbooks-->
         <scene sceneID="U3V-RW-zci">
             <objects>
-                <tableViewController id="oeh-Ht-9OQ" sceneMemberID="viewController">
+                <tableViewController id="oeh-Ht-9OQ" customClass="BuyTableViewController" customModule="Textbook" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Ztx-LB-iNe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -243,10 +243,10 @@
             </objects>
             <point key="canvasLocation" x="2997.5999999999999" y="909.89505247376314"/>
         </scene>
-        <!--View Controller-->
+        <!--Sell Page View Controller-->
         <scene sceneID="TCm-68-9Am">
             <objects>
-                <viewController id="YDn-wr-LUj" sceneMemberID="viewController">
+                <viewController id="YDn-wr-LUj" customClass="SellPageViewController" customModule="Textbook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LLx-PB-91b">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -267,7 +267,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r8A-Lw-kmr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3833" y="910"/>
+            <point key="canvasLocation" x="3832.8000000000002" y="909.89505247376314"/>
         </scene>
         <!--Sell-->
         <scene sceneID="IXK-p7-Pc6">
@@ -289,7 +289,7 @@
         <!--Buy / Rent Textbooks-->
         <scene sceneID="JNC-JL-3tt">
             <objects>
-                <tableViewController id="2Lo-7F-PcZ" sceneMemberID="viewController">
+                <tableViewController id="2Lo-7F-PcZ" customClass="BuyTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="9Xq-mM-UrN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -352,10 +352,10 @@
             </objects>
             <point key="canvasLocation" x="3040.8000000000002" y="204.64767616191907"/>
         </scene>
-        <!--View Controller-->
+        <!--Buy Page View Controller-->
         <scene sceneID="hSz-Vf-0Y5">
             <objects>
-                <viewController id="Vnr-Zn-jnA" sceneMemberID="viewController">
+                <viewController id="Vnr-Zn-jnA" customClass="BuyPageViewController" customModule="Textbook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HLP-sK-gby">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
